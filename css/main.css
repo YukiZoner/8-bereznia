@@ -58,7 +58,7 @@ body, html {
 	transform: rotate(-20deg)!important;
 	top: -90vh;
 	left: -10vh;
-	opacity: .15;
+	opacity: .3;
 	filter: blur(120px) saturate(10);
 }
 .slider_bg .slider__item {
@@ -85,6 +85,10 @@ body, html {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+.li {
+	display: inline-block;
+}
 .description p {
 	opacity: .9;
 	transition: transform var(--transition);
@@ -107,6 +111,9 @@ body, html {
 @media only screen and (max-width: 600px) {
 	.slider__img {
 	  max-height: 60%;
+	}
+	.slider_bg {
+		opacity: .7;
 	}
   }
 
